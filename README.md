@@ -1,18 +1,36 @@
-## Getting Started
+# Chess System Java ♟️
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Bem-vindo ao projeto **Chess System Java**, parte do curso **"Java COMPLETO Programação Orientada a Objetos + Projetos"**, ministrado por [Nelio Alves](https://www.udemy.com/course/java-curso-completo/) na Udemy.
 
-## Folder Structure
+## Sobre o projeto
 
-The workspace contains two folders by default, where:
+Este é um sistema simples de jogo de xadrez desenvolvido em Java, com o objetivo de aplicar conceitos de **Programação Orientada a Objetos (POO)** e boas práticas de desenvolvimento de software.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Implementação das regras básicas do xadrez, como movimentação de peças e captura.
+- Controle de estados do jogo:
+  - Xeque
+  - Xeque-mate
+  - Empate
+- Tabuleiro representado por uma matriz.
+- Tratamento de erros para movimentação inválida.
+- Console como interface principal.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Estrutura do código
 
-## Dependency Management
+O projeto foi dividido em pacotes e classes para garantir organização e clareza:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **boardgame**: Classes relacionadas ao tabuleiro e peças.
+- **chess**: Classes específicas do xadrez, como peças (rei, rainha, etc.) e regras.
+
+### Tecnologias utilizadas
+
+- **Java 17**
+- Programação Orientada a Objetos (POO)
+
+## Como executar o projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Dev-Isaque/chess-system-java.git
